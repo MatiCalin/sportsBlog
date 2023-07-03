@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RollingSports</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-96x96.png">
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="d-flex flex-column">
+  <header>
+    <!-- ======================== INICIO NAVBAR =================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-2">
+      <div class="container-md">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/images/Logo/ORIGINAL.png" alt="Rolling-Sports" height="40px"></a>
+
+
+        <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="pull-right">
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex">
+                <div class="dropdown BOTON-NAV">
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/sports/sports.html">Deportes</a>
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/about/about.html">Conócenos</a>
+
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/contact/contact.html">Contáctanos</a>
+
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page" href="/pages/login/login.html">Inicia
+                    sesión</a>
+
+                  <!-- ============= modal =========== -->
+
+
+                  <!-- Button Principal modal -->
+                  <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                    data-bs-target="#Modal-example">
+                    Suscríbete
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade prueba" id="Modal-example" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">¡Suscribete para recibir noticias y resultados
+                            de
+                            tus deportes favoritos!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Nombre completo:</label>
+                              <input type="text" class="form-control" id="name" placeholder="Leo Messi" required>
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Ingresa tu email:</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="manuGinobili@ejemplo.com.ar" required>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <!-- ========ERROR404======== -->
+                              <a id="BOTON-NAV" class="btn btn-primary" aria-current="page"
+                                href="/pages/error404-1.html">Suscribirme</a>
+                              <!-- ========ENDERROR404====== -->
+
+
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div>
+
+
+
+
+                        <!-- =============== end modal =========== -->
+
+
+                      </div>
+                    </div>
+                  </div>
+    </nav>
+    <!-- =======================NavBar END=============== -->
+
+  </header>
+  <main>
+    <!------------------------- INICIO DE SLIDER ----------------------->
+
+    <div id="mainBanner" class="carousel slide mainCarousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner carouselItemsContain">
+        <div class="carousel-item active">
+          <img src="/assets/images/mainBannerImg/Imagen6.jpg" class="d-block w-100" alt="banner-img-messi">
+          <div class="carousel-caption text-end align-text-top h-50">
+            <h2>Bienvenidos a RollingSport</h2>
+            <p class="d-none d-md-block">Tus deportes favoritos en un solo lugar</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/mainBannerImg/Imagen5.jpg" class="d-block w-100" alt="banner-img-jordan">
+          <div class="carousel-caption align-text-top h-50">
+            <h2>Mantenete al dia!</h2>
+            <p class="d-none d-md-block">Mira todo el contenido que tenemos para vos</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/mainBannerImg/Imagen1.jpg" class="d-block w-100" alt="banner-img-bolt">
+          <div class="carousel-caption text-start align-text-top h-50">
+            <h2>Nosotros te acompañamos</h2>
+            <p class="d-none d-md-block">Estamos para que tengas la mejor experiencia</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainBanner" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainBanner" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!------------------------ FIN DE SLIDER -------------------------------->
+
+    <!-------------------- INICIO COLUMNA PRINCIPAL ------------------------>
+
+    <div class="container main-container text-center">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 px-2">
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/ArgImg.png" alt="argentinaImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">Vamos Argentina!</h5>
+              <p class="card-indexBody">Luego de vencer a Brasil en su casa Argentina se consagró campeón de la Americup
+                en un final agónico.</p>
+              <a href="/pages/Entry/firstEntry.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/AcavalloImg.png" alt="horacioAcavalloImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">Triste Knockout</h5>
+              <p class="card-indexBody">Tras padecer durante casi una década el mal de Alzheumer, el ex monarca del peso
+                mosca entre 1966 y 1968, falleció a los 87 años Horacio Acavallo, leyenda del deporte nacional.</p>
+              <a href="/pages/Entry/secondEntry.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/MirkaImg.jpg" alt="mirkaVavrinekImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">¿Quien es Mirka Vavrinek?</h5>
+              <p class="card-indexBody">A poco de conocer el retiro de Roger Federer, te contamos quien es Mirka
+                Vavrinek, quien lo acompaño en su gran trayectoria.</p>
+              <a href="/pages/Entry/thirdEntry.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/VerstappenImg.png" alt="verstappenImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">"Se merece el titulo"</h5>
+              <p class="card-indexBody">Fueron las palabras utilizadas por el español Carlos Sainz para alabar al
+                corredor de RedBull que hizo maravillas en la pista en lo que va del 2022.</p>
+              <a href="pages/error404-1.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/VanVleuten.jpg" alt="vanVleutenImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">¡Que golpe!</h5>
+              <p class="card-indexBody">Duro accidente en la crono mixta del mundial de la corredora neerlandesa de
+                apellido Van Vleuten, que ahora es duda para la prueba del sábado.</p>
+              <a href="pages/error404-1.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <div class="card my-4 text-start cardPeliculaIndex">
+            <img class="w-100" src="/assets/images/main-img/MeolansOtero.jpg" alt="meolansOteroImg">
+            <div class="card-img-overlay card-indexContent">
+              <h5 class="card-indexTitle">Se viene el Master Open</h5>
+              <p class="card-indexBody">Con la presencia de Meolans y Otero, Mar del Plata será sede del evento nacional
+                de Natación Master Open.</p>
+              <a href="pages/error404-1.html" class="btn btn-outline-light">Ver más</a>
+              <p class="card-indexFooter"><small class="text-muted">Hace 1 dia</small></p>
+            </div>
+          </div>
+          <br>
+          <div class="pagination">
+            <ul class="paginationBtn d-flex justify-content-center w-100">
+              <li class=" pageItem">
+                <a href="/pages/error404-1.html">Previous</a>
+              </li>
+              <li class="pageItem">
+                <a href="/pages/error404-1.html">1</a>
+              </li>
+              <li class="pageItem">
+                <a href="/pages/error404-1.html">2</a>
+              </li>
+              <li class="pageItem">
+                <a href="/pages/error404-1.html">3</a>
+              </li>
+              <li class="pageItem">
+                <a href="/pages/error404-1.html">...</a>
+              </li>
+              <li class="pageItem">
+                <a href="/pages/error404-1.html">Next</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!---------------------- FIN COLUMNA PRINCIPAL ------------------------->
+
+        <!--------------------------- INICIO ASIDE ----------------------------->
+
+        <aside class="col-sm-12 col-md-4">
+          <div class="sideAdvertising">
+            <form class="d-flex my-2">
+              <input class="w-100 searchBox" type="search" placeholder="Buscar" aria-label="Search">
+              <a href="pages/error404-1.html" class="btn btn-outline-dark text-light border-white">Buscar</a>
+            </form>
+            <button class="btn btn-outline-light w-100 my-3 collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseExample" aria-expanded="false"
+              aria-controls="collapseExample">Categorias</button>
+            <div class="mb-2 collapse" id="collapseExample">
+              <div class="card mb-3">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Deportes
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex flex-column">
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Ver todos</a>
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Basquet</a>
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Tenis</a>
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Automovilismo</a>
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Natación</a>
+                        <a href="/pages/sports/sports.html" class="categoriaIndex">Boxeo</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="/assets/images/ad-img/budweiserImg.jpg" alt="Publicidad" class="w-100 mt-2 d-none d-md-block">
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!----------------------------- FIN ASIDE ----------------------------->
+  </main>
+
+  <!-- INICIO DE FOOTER -->
+
+  <footer class="container-fluid text-center bg-dark text-light" style="margin: 0;">
+    <div class="row justify-content-center m-1">
+      <div class="col col-md-6 col-lg-4 d-none d-md-block">
+        <div class="logoColumn">
+          <div>
+            <a href="/index.html"><img src="/assets/images/Logo/ORIGINAL.png" alt="logo-img"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="socialMediaColumn">
+          <div class="socialTitle mb-2">Seguinos en redes!</div>
+          <ul class="footer-social-media-list">
+            <li class="social-media-items p-1">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li class="social-media-items p-1">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+              </a>
+            </li>
+            <li class="social-media-items p-1">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col col-lg-4 d-none d-lg-block">
+        <div class="aditional-information-column">
+          <div class="p-1">
+            También escucha
+          </div>
+          <div class="p-1">
+            nuestro Podcast
+          </div>
+          <div class="p-1">
+            con la mejor información semanal!
+          </div>
+          <div class="p-1">
+            <a href="https://open.spotify.com/" target="_blank">
+              <i class="fa-brands fa-spotify">Spotify</i>
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FIN DE FOOTER -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>

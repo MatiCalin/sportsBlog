@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicia Sesión</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-96x96.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- ======================== INICIO NAVBAR =================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top color-2">
+      <div class="container-md">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assets/images/Logo/ORIGINAL.png" alt="Rolling-Sports" height="40px"></a>
+
+
+        <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="pull-right">
+            <div class="collapse navbar-collapse d-flex-important" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex">
+                <div class="dropdown BOTON-NAV">
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/sports/sports.html">Deportes</a>
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/about/about.html">Conócenos</a>
+
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                    href="/pages/contact/contact.html">Contáctanos</a>
+
+
+                  <a class="btn btn-outline-light BOTON-NAV" aria-current="page" href="/pages/login/login.html">Inicia
+                    sesión</a>
+
+                  <!-- ============= modal =========== -->
+
+
+                  <!-- Button Principal modal -->
+                  <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                    data-bs-target="#Modal-example">
+                    Suscríbete
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade prueba" id="Modal-example" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">¡Suscribete para recibir noticias y resultados
+                            de
+                            tus deportes favoritos!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Nombre completo:</label>
+                              <input type="text" class="form-control" id="name" placeholder="Leo Messi" required>
+                            </div>
+
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Ingresa tu email:</label>
+                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="manuGinobili@ejemplo.com.ar" required>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              <!-- ========ERROR404======== -->
+                              <a id="BOTON-NAV" class="btn btn-primary" aria-current="page"
+                                href="/pages/error404-1.html">Suscribirme</a>
+                              <!-- ========FIN ERROR404====== -->
+
+
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div>
+
+
+
+
+                        <!-- =============== FIN MODAL =========== -->
+
+
+                      </div>
+                    </div>
+                  </div>
+    </nav>
+    <!-- =======================FIN NAVBAR=============== -->
+
+  </header>
+  <main>
+    <!-- <================= Comienzo de login =================> -->
+    <main>
+      <div style="height: 69px;"></div>
+      <div class="container text-light py-2">
+        <section>
+          <div class="row gx-5">
+            <div class="col-12 col-md-6 ">
+              <div class="p-4 login-container">
+                <!-- <======= Lado izquierdo login =======> -->
+                <div class="px-lg-3 py-lg-4 p-4 w-100 aling-self-center">
+                  <form>
+                    <h1 class="font-weight-bold  mb-3">Iniciar sesión</h1>
+                    <p class="form-text">¿Ya tienes una cuenta? Inicia sesión más abajo.</p>
+                    <div class="mb-4">
+                      <label for="exampleInputEmail1 " class="form-label font-weight-bold ">Correo
+                        electrónico</label>
+                      <input type="email" minlength="10" maxlength="40" required autocomplete=""
+                        class="form-control formularios-gnrl" id="exampleInputEmail1"
+                        placeholder="jorge123@ejemplo.com">
+                    </div>
+                    <div class="mb-5">
+                      <label for="exampleInputPassword1" class="form-label font-weight-bold ">Contraseña</label>
+                      <input type="password" minlength="6" maxlength="18" required class="form-control formularios-gnrl"
+                        id="exampleInputPassword1" placeholder="Contraseña">
+                      <!-- Recuperar contraseña modal -->
+                      <a type="button" class="font-weight-bold form-text" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" href="">¿Olvidaste tu contraseña?</a>
+                      <!-- Modal -->
+                      <div class="modal fade custom-headel-modal" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog p-4 modal-custom-2">
+                          <div class="modal-content login-modal-2">
+                            <div class="pb-3 ps-4 pe-4 ">
+                              <div class="modal-header custom-headel-modal">
+                                <img class="lock-login m-2 p-2" src="/assets/images/imagenes-login/candado.png"
+                                  alt="lock-login"><button type="button" class="btn-close " data-bs-dismiss="modal"
+                                  aria-label="Close"></button>
+                              </div>
+                              <h2 class="py-2 ps-4 pe-4 align-self-center" id="exampleModalLabel">¿Tienes
+                                problemas
+                                para entrar?</h2>
+                            </div>
+                            <div class="modal-body">
+                              <p class="pb-3 ps-4 pe-4 aling-self-center">Introduce
+                                tu correo electrónico, número de teléfono o nombre de
+                                usuario y te enviaremos un enlace para que vuelvas a entrar
+                                en tu cuenta
+                              </p>
+                              <div class="pb-3 ps-4 pe-4 aling-self-center">
+                                <label for="exampleFormControlInput1" class="form-label "></label>
+                                <input type="email" minlength="10" maxlength="30" required autofocus autocomplete=""
+                                  class="form-control" id="exampleFormControlInput1"
+                                  placeholder="Correo electrónico, usuario o  teléfono">
+                                <div class=" p-2 ">
+                                  <a href="/pages/error404-1.html" class="btn btn-outline-light w-100"
+                                    type="button">Enviar enlace de inicio de sesión</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-grid gap-2 m-3">
+                      <a href="/pages/error404-1.html" class="btn btn-outline-light w-100" type="button">Iniciar
+                        sesión</a>
+                    </div>
+                    <p class="font-weight-bold text-center text-muted p-3 mb-3">O inicia sesión con</p>
+                    <div class="d-flex justify-content-around">
+                      <a href="https://mail.google.com/mail/u/0/#inbox"
+                        class="btn btn-outline-light flex-grow-1 m-2 "><i class="fa-brands fa-google"></i> Google</a>
+                      <a href="https://www.facebook.com/" class="btn btn-outline-light flex-grow-1 m-2 "><i
+                          class="fa-brands fa-facebook-f"></i>
+                        Facebook</a>
+                    </div>
+                    <div class="text-center px-lg-5 pt-lg-2 pb-lg-4 p-4 2-100">
+                      <p class="d-inline-block mb-1 ">¿Primera vez en RollingSport?</p>
+                      <a class="text-light" href="/pages/error404-1.html">Registrate ahora</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- <==========Lado derecho foto=========> -->
+            <div class="col-md-6 ">
+              <div class="carousel-login ">
+                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/images/imagenes-login/image-rugby.jpg" class="d-block w-100" alt="image-volley">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/images/imagenes-login/image-baloncesto.jpg" class="d-block w-100"
+                        alt="image-baloncesto">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/images/imagenes-login/image-futbol.jpg" class="d-block w-100"
+                        alt="image-futbol">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- <================= Fin de login =================> -->
+  </main>
+  <!-- INICIO DE FOOTER -->
+
+  <footer class="container-fluid text-center bg-dark text-light" style="margin: 0;">
+    <div class="row justify-content-center m-1">
+      <div class="col col-md-6 col-lg-4 d-none d-md-block">
+        <div class="logoColumn">
+          <div>
+            <a href="/index.html"><img src="/assets/images/Logo/ORIGINAL.png" alt="logo-img"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="socialMediaColumn">
+          <div class="socialTitle mb-2">Seguinos en redes!</div>
+          <ul class="footer-social-media-list">
+            <li class="social-media-items p-1">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+                Facebook
+              </a>
+            </li>
+            <li class="social-media-items p-1">
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+              </a>
+            </li>
+            <li class="social-media-items p-1">
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col col-lg-4 d-none d-lg-block">
+        <div class="aditional-information-column">
+          <div class="p-1">
+            También escucha
+          </div>
+          <div class="p-1">
+            nuestro Podcast
+          </div>
+          <div class="p-1">
+            con la mejor información semanal!
+          </div>
+          <div class="p-1">
+            <a href="https://open.spotify.com/" target="_blank">
+              <i class="fa-brands fa-spotify">Spotify</i>
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FIN DE FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

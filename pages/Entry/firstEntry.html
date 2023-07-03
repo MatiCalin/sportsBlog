@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>RollingSports</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-96x96.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <!-- ======================== INICIO NAVBAR =================== -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(87, 87, 87, 0.385);">
+            <div class="container-md">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/assets/images/Logo/ORIGINAL.png" alt="Rolling-Sports" height="40px"></a>
+
+
+                <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="pull-right">
+                        <div class="collapse navbar-collapse d-flex-important" id="navbarNavAltMarkup">
+                            <div class="navbar-nav d-flex">
+                                <div class="dropdown BOTON-NAV">
+
+                                    <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                                        href="/pages/sports/sports.html">Deportes</a>
+
+                                    <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                                        href="/pages/about/about.html">Conócenos</a>
+
+
+                                    <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                                        href="/pages/contact/contact.html">Contáctanos</a>
+
+
+                                    <a class="btn btn-outline-light BOTON-NAV" aria-current="page"
+                                        href="/pages/login/login.html">Inicia sesión</a>
+
+                                    <!-- ============= modal =========== -->
+
+
+                                    <!-- Button Principal modal -->
+                                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                                        data-bs-target="#Modal-example">
+                                        Suscríbete
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade prueba" id="Modal-example" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">¡Suscribete para
+                                                        recibir noticias y resultados
+                                                        de
+                                                        tus deportes favoritos!</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="name" class="form-label">Nombre
+                                                                completo:</label>
+                                                            <input type="text" class="form-control" id="name"
+                                                                placeholder="Leo Messi" required>
+                                                        </div>
+
+                                                        <div class="mb-3">
+                                                            <label for="email" class="form-label">Ingresa tu
+                                                                email:</label>
+                                                            <input type="email" class="form-control" id="email"
+                                                                aria-describedby="emailHelp"
+                                                                placeholder="manuGinobili@ejemplo.com.ar" required>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Cerrar</button>
+                                                            <!-- ========ERROR404======== -->
+                                                            <a id="BOTON-NAV" class="btn btn-primary"
+                                                                aria-current="page"
+                                                                href="/pages/error404-1.html">Suscribirme</a>
+                                                            <!-- ========FIN ERROR404====== -->
+
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div>
+
+
+
+
+                                                <!-- =============== FIN MODAL =========== -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+        </nav>
+        <!-- =======================FIN NAVBAR=============== -->
+
+    </header>
+    <!-- INICIO PRIMERA ENTRADA -->
+    <main class="text-light">
+        <h1 class="text-center mt-5 pt-5 pb-2"> Selección Argentina de Básquet</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="/assets/images/EntryImg/firstEntryImg/foto principal.jpg" class="img-thumbnail "
+                        alt="Integrantes de la Selección Argentina de básquet">
+                </div>
+                <div class="col -12 col-md-6">
+                    <img src="/assets/images/EntryImg/firstEntryImg/seleccion-argentina-basquet.jpg"
+                        class="img-thumbnail" alt="Integrantes de la Selección Argentina de básquet">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <figcaption class=" photoCaption md-12 text-center">La Selección argentina de básquet se consagró campeón de
+                la AmeriCup League&nbsp;<cite>Foto: REUTERS/Ueslei Marcelino</cite></figcaption>
+        </div>
+        <hr style="border:0px; border-top: 5px double #000;">
+
+        <div class=" lead">
+            <div class="col-md-12">
+                <div class=" text-center"> El combinado nacional, dirigido por Pablo Priogioni, fue de mayor a menor y
+                    casi deja escapar el título. Sin embargo, reaccionó sobre el cierre del partido y dio vuelta el
+                    resultado en una final agónica para celebrar en condición de visitante. El partido fue dominado al
+                    comienzo por la Albiceleste, que ganó el primer cuarto por 14-26, pero luego cedió en el segundo
+                    (24-22), tercero (22-19) y cuarto (13-8).
+                    A pesar del repunte local, el combinado argentino consiguió mantener la diferencia que había
+                    obtenido al inicio y se alzó así con su tercer trofeo en el torneo, que había conquistado en 2001 y
+                    2011. De esta manera, rompió la racha negativa en las dos últimas finales cuando cayó ante Venezuela
+                    (2015) y Estados Unidos (2017) .
+                    Gabriel Deck aportó 20 puntos y fue determinante para que la Argentina se quedara con el título. El
+                    jugador del Real Madrid tuvo el mejor promedio anotador de la competición (21,2 de media, 127 en
+                    total en seis juegos) y fue considerado el jugador más valioso de la Americup 2022 de la Federación
+                    Internacional de Baloncesto (FIBA), conocida como la Copa América de ese deporte.
+                    Brasil, por su parte, se privó por dos puntos de ganar su quinta corona, que los ratificaría en el
+                    segundo puesto del consagraciones históricas del campeonato, liderado por Estados Unidos (7).
+                </div>
+            </div>
+        </div>
+
+        <div class="col sm-12">
+            <div class="container pb-2 d-flex justify-content-center">
+                <iframe width="600" height="355" src="https://www.youtube.com/embed/KFNTK4pd-3M"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div> <br><br>
+
+            <hr style="border:0px; border-top: 5px double #000;">
+
+            <h1 class="text-center"> Dejanos tu comentario</h1>
+            <div class="conteiner  mb-3  opinion-blog">
+                <form class=" ">
+                    <div class="form-group m-4">
+                        <label for="Nombre">Para opinar no hace falta registrarte</label>
+                        <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="form-group m-4 ">
+                        <label for="mensaje">COMENTARIO</label>
+                        <textarea class="form-control" name="" id="mensaje" placeholder="¿Qué opinas?" cols="30"
+                            rows="10"></textarea>
+                    </div>
+                    <a href="#ERROR404#" type="botton" class=" btn-outline-light m-4 px-5 btn pull-right">
+                        Enviar
+                    </a>
+                </form>
+            </div>
+            <br><br><br>
+
+            <div class="row ">
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex ">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog 1 comentario.jpg"
+                                    class="img-responsive img-circle" alt="usuario"></a>
+                            <p class=" mx-4">Gero </p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+
+                            <p class="text-start mt-2 ">
+                                Vamos argentina te amo yo hago basket y soy argentina aguante argentina te amo esto me
+                                ISO sudar jaja😁😁😘😘😘😅😅
+                            </p>
+
+                            <div class="container d-flex p-0">
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a>
+                                    <span class="m-2">1</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class="m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex ">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog1 comentario.jpg"
+                                    class="img-responsive img-circle" alt="usuario"></a>
+                            <p class=" mx-4">Elsapo</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                Como no le van a ganar a españa hermaaaaaaanooo son argentinos aca se juega en todos
+                                lados al basket dios mio
+                            </p>
+                            <div class="container d-flex p-0">
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class=" m-2">1</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class=" m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog1 comentario 7.jpg"
+                                    class="img-responsive img-circle " alt="usuario"></a>
+                            <p class=" mx-4">Anna</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                !!!Argentina campeón felicidades!!!🇦🇷👏🏀🏆🏅 !!!muy bien los jugadores y técnico!!!,
+                                y otra vez le ganamos a Brasil en su casa...
+                                !!!Brasil la tenés adentro!!!😂😂😂
+                            </p>
+                            <div class="container d-flex pb-0">
+                                <div class="container  m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class="m-2">3</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class="m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12  mb-2 comentario-Blog">
+                    <div class="container d-sm-flex ">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog 1 comentario3.jpg"
+                                    class="img-responsive img-circle" alt="usuario"></a>
+                            <p class=" mx-4">ElLuki</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                Me sorprende lo que dijieron sobre el arrco que mide dos metros para saber cuanto miden
+                                los jugadores 9:27
+                            </p>
+                            <div class="container d-flex p-0">
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class=" m-2">1</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class=" m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex">
+                        <div class="d-block">
+                            <a href="/pages/error404-4.html"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog1 comentario4.jpg"
+                                    class="img-responsive img-circle" alt="usuario"></a>
+                            <p class=" mx-4">U2</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                El Coach Argentino sigue insistiendo con el doble base petiso y asi el equipo NO TIENE
+                                un lider armador BIEN DEFINIDO que ordene el juego y todo se vuelve INCONSISTENTE y
+                                azaroso. Deberia usar mas a Bolmaro como escolta (o a Brussino como escolta) y dejar de
+                                rotar tanto la base. Base que no anda sale, y listo, como pasaba en la Generacion Dorada
+                                y en el basket de siempre.
+                            </p>
+                            <div class="container d-flex pb-0">
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class=" ms-2">0</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"> <i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class=" m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog1 comentario5.jpg"
+                                    class="img-responsive img-circle " alt="usuario"></a>
+                            <p class=" mx-4">LaYenni</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                Como me gustaria q argentina tenga otra torre como lo es joaquin lallana con sus 2 m 17
+                                de estatura q lindo verlo jugar con francisco caffaro como ahora esta haciendo españa
+                                con el juvenil aday mara con su 2 m 18 y pensar q tenemos dos y utilizamos uno ya q
+                                todos los equipos de europa seguro tienen dos o tres torres pero bueno asi somos los
+                                argentino tenemos oportunidad y no la sabemos aprovechar pero estamos a tiempo ya q
+                                todavia es joven.
+                            </p>
+                            <div class="container d-flex pb-0">
+                                <div class="container  m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class=" m-2">3</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class=" m-2">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-2 comentario-Blog">
+                    <div class="container d-sm-flex">
+                        <div class="d-block">
+                            <a href="#PAGINAERROR#"><img
+                                    src="/assets/images/EntryImg/firstEntryImg/blog 1 comentario6.jpg"
+                                    class="img-responsive img-circle " alt="usuario"></a>
+                            <p class=" mx-4">El CHAFA</p>
+                        </div>
+                        <div class="container">
+                            <div class="rating">
+                            </div>
+                            <p class="text-start mt-2">
+                                Felicitaciones genios , súper emocionada el partido ...vamos Argentina carajo ! 🎊👏
+                            </p>
+                            <div class="container d-flex pb-0">
+                                <div class="container  m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-up"></i></a><span
+                                        class=" m-2">2</span>
+                                </div>
+                                <div class="container m-2" style="width: 1px">
+                                    <a href="#PAGINAERROR#"><i class="fa-regular fa-thumbs-down"></i></a><span
+                                        class=" m-2">1</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br><br>
+    </main>
+    <!-- FIN PRIMERA ENTRADA -->
+    <!-- INICIO DE FOOTER -->
+
+    <footer class="container-fluid text-center bg-dark text-light" style="margin: 0;">
+        <div class="row justify-content-center m-1">
+            <div class="col col-md-6 col-lg-4 d-none d-md-block">
+                <div class="logoColumn">
+                    <div>
+                        <a href="/index.html"><img src="/assets/images/Logo/ORIGINAL.png" alt="logo-img"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="socialMediaColumn">
+                    <div class="socialTitle mb-2">Seguinos en redes!</div>
+                    <ul class="footer-social-media-list">
+                        <li class="social-media-items p-1">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="social-media-items p-1">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="social-media-items p-1">
+                            <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col col-lg-4 d-none d-lg-block">
+                <div class="aditional-information-column">
+                    <div class="p-1">
+                        También escucha
+                    </div>
+                    <div class="p-1">
+                        nuestro Podcast
+                    </div>
+                    <div class="p-1">
+                        con la mejor información semanal!
+                    </div>
+                    <div class="p-1">
+                        <a href="https://open.spotify.com/" target="_blank">
+                            <i class="fa-brands fa-spotify">Spotify</i>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FIN DE FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
